@@ -3,6 +3,7 @@
 def snake_it_up(string)
   unless string[0] == "s"
     10.times do "s" + string
+  end
   else
     string
   end
